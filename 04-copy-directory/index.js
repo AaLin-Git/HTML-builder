@@ -21,6 +21,6 @@ fs.readdir(sourcePath, { withFileTypes: true }, (err, files) => {
           }
         });
       }
-    })
+    });
   }
-})
+});
